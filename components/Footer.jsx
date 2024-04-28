@@ -97,9 +97,6 @@ const Copy = () => {
       <p>
         &copy;2023 César Tejada Lorente
       </p>
-      <address>
-        cesartejada353@gmail.com
-      </address>
     </div>
   )
 }
