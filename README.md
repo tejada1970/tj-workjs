@@ -80,4 +80,4 @@ Ejecuta el siguiente comando para instalar las dependencias necesarias: npm inst
 Una vez completada la instalación, ejecuta el siguiente comando para iniciar el servidor de desarrollo: npm run dev
 
 7. **Visualización del Proyecto:**
-Abre tu navegador web y navega a http://localhost:3000 o aplasta las teclas Ctrl + http://localhost:3000 desde tu terminal, esto cargará el proyecto en tu navegador y podrás interactuar con él localmente.
+Abre tu navegador web y navega a http://localhost:3000 o aplasta las teclas Ctrl + http://localhost:3000 desde tu terminal, esto cargará el proyecto en tu navegador y podrás interactuar con él localmente. Cuando se haya mostrado el proyecto, es posible que no se muestren en principio los iconos en la parte superior derecha para la navegación entre secciones de la página de inicio. Para ello, una vez se muestre el proyecto actualiza y refresca el navegador en primer lugar y aparecerán los iconos en su sitio. Este es un pequeño problemilla que tengo que solucionar cuando pueda.
