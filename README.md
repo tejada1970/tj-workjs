@@ -50,7 +50,6 @@ Si lo deseas, puedes acceder al trabajo original de javaScript desde mi reposito
 No utiliza base de datos: Es importante destacar que este proyecto no cuenta con una base de datos. Los datos recopilados en el formulario de presupuesto no se almacenan de forma permanente en ningún sitio. Se trata simplemente de una simulación de formulario.
 
 Requerimientos del servidor: Para su correcto funcionamiento, el proyecto debe ser ejecutado desde un servidor. Por ejemplo, se recomienda utilizar XAMPP u otro servidor local para alojar la aplicación. Esto es esencial para que ciertas funcionalidades, como la sección de noticias que utiliza peticiones, puedan ser mostradas correctamente.
->>>>>>> 9304f4b750b5c3751ceef403cc18dabe0c232cae
 
 ## Descarga y Configuración en Entorno Local:
 
