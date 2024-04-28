@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin:0
+}
+body {
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+  width: 7px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #333;
+  border-radius: 20px;
+}
+.bgDark {
+  background-color: #222;
+}
+@Layer base {
+  span {
+    @apply text-green-500;
+  }
+  .spanOrange {
+    @apply text-orange-400;
+  }
+}
