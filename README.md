@@ -51,3 +51,34 @@ No utiliza base de datos: Es importante destacar que este proyecto no cuenta con
 
 Requerimientos del servidor: Para su correcto funcionamiento, el proyecto debe ser ejecutado desde un servidor. Por ejemplo, se recomienda utilizar XAMPP u otro servidor local para alojar la aplicación. Esto es esencial para que ciertas funcionalidades, como la sección de noticias que utiliza peticiones, puedan ser mostradas correctamente.
 >>>>>>> 9304f4b750b5c3751ceef403cc18dabe0c232cae
+
+## Descarga y Configuración en Entorno Local:
+
+**Requisitos:**
+Tener instalados en tu PC: Node.js y un servidor local de tu preferencia (Se recomienda XAMPP).
+
+**Pasos:**
+
+1. **Descarga el Proyecto:**
+Haz clic en el botón "Code" en este repositorio y selecciona "Download ZIP".
+
+2. **Extracción del Proyecto:**
+Crea una nueva carpeta en tu escritorio.
+Ve a la carpeta de descargas y arrastra el archivo ZIP descargado a la nueva carpeta para extraerlo.
+
+3. **Ubicación en el Servidor Local:**
+Copia la carpeta del proyecto que has extraido y pégala en la carpeta de tu servidor local. Por ejemplo, en XAMPP, la carpeta usualmente es xampp/htdocs.
+
+4. **Apertura en el Editor:**
+Abre tu editor de código preferido. Recomendamos Visual Studio Code.
+Haz clic derecho sobre la carpeta del proyecto y selecciona "Abrir con Code".
+
+5. **Instalación de Dependencias:**
+Abre la terminal en Visual Studio Code.
+Ejecuta el siguiente comando para instalar las dependencias necesarias: npm install
+
+6. **Ejecución del Servidor de Desarrollo:**
+Una vez completada la instalación, ejecuta el siguiente comando para iniciar el servidor de desarrollo: npm run dev
+
+7. **Visualización del Proyecto:**
+Abre tu navegador web y navega a http://localhost:3000 o aplasta las teclas Ctrl + http://localhost:3000 desde tu terminal, esto cargará el proyecto en tu navegador y podrás interactuar con él localmente.
