@@ -5,7 +5,6 @@ const MyLinkLocal = ({ linkUrl, linkOnClick, linkText }) => {
     <div>
       <Link 
         href={linkUrl}
-        target='_self'
         onClick={linkOnClick}
         className='
         group relative overflow-hidden z-10 min-w-[150px] max-w-[150px] 

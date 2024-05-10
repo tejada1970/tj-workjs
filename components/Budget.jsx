@@ -30,7 +30,7 @@ const Budget = () => {
       { id: 'product-2', name: `${textObject.budget.budgetData.productSelect.selectName2}`, price: 90 },
       { id: 'product-3', name: `${textObject.budget.budgetData.productSelect.selectName3}`, price: 25.9 },
     ],
-    [textObject]
+    []
   );
 
   const { register, handleSubmit, formState: {errors}, watch, setValue } = useForm();
@@ -53,6 +53,7 @@ const Budget = () => {
     else {
       setValue('priceProduct', 0);
       calculatePvpTotal();
+      // eslint-disable-next-line react-hooks/exhaustive-deps
     }
   }, [productSelect, objProducts, setValue]);
 
@@ -69,6 +70,7 @@ const Budget = () => {
   useEffect(() => {
     setValue('priceExtras', priceExtras);
     calculatePvpTotal();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [priceExtras, setValue]);
 
   /* Actualiza la suma: del precio del producto + el total de los extras */
@@ -77,13 +79,14 @@ const Budget = () => {
     const priceExtras = watch('priceExtras', 0);
     const productExtrasSum = (parseFloat(priceProduct) + parseFloat(priceExtras)).toFixed(2);
     setValue('priceProductExtras', productExtrasSum);
-  }, [watch, setValue, objExtras, productSelect, priceExtras, deliveryTime]);
+  }, [watch, setValue, productSelect, priceExtras, deliveryTime]);
 
   /* Actualiza el descuento según el tiempo de entrega */
   useEffect(() => {
     const discount = objDays[deliveryTime] || 0;
     setValue('discount', discount);
     calculatePvpTotal();
+     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [deliveryTime, setValue]);
 
   /* Calcula todas las operaciones para el precio final del presupuesto */

@@ -120,7 +120,7 @@ const MapView = ({lat, lng, titleStartingPoint, titleFinalPoint}) => {
           map.removeControl(routingControlRef.current);
         }
       };
-    }, [map, userLocation]);
+    }, [map]);
     return null;
   }
 

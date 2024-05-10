@@ -51,7 +51,7 @@ const News = () => {
         <h1 className='text-2xl text-center pt-6'>Últimas noticias: The Guardian</h1>
           <ul>
             {articles.map((article, index) => (
-              <div key={article.id}>
+              <div key={index}>
                 <li className='text-blue-700 m-10 text-lg'>
                   <span className="mr-2 text-blue-900">{index+ 1}.</span>
                   <a href={article.webUrl} target="_blank">{article.webTitle}</a>

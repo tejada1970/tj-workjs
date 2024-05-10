@@ -3,7 +3,7 @@ import About from '@/components/About';
 import News from '@/components/News';
 import Services from '@/components/Services';
 
-async function HomePage () { 
+const HomePage = () => {
   return (
     <div>
       <Products />

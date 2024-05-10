@@ -1,10 +1,9 @@
 "use client"
-import { useRouter } from 'next/navigation';
 
 const BtnBack = ({ divClassName, btnClassName, btnText }) => {
-  const router = useRouter();
   const btnBack = () => {
-    router.back();
+    // Navega atrás en la historia del navegador
+    window.history.back();
   }
   return (
     <div className={`${divClassName}`}>

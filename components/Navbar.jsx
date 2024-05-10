@@ -83,7 +83,8 @@ const Navbar = () => {
     window.scrollTo(0, 0);
 
     setCurrentSection("productsWorkjs"); /* marca en naranja el icono 'products' */
-  },[]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  },[currentUrl]);
 
   const iconProducts = () => {
     if (currentUrl === '/?' && currentSection !== 'productsWorkjs') {
@@ -207,7 +208,7 @@ const Navbar = () => {
               </div>
             </div>
             {/* phrase */}
-            <div className='py-5 border-b border-gray-400'>
+            <div className='py-5 border-b border-gray-400 sm:text-[14px]'>
               <em>
                 <span className='spanOrange'>
                   {textObject.phrase.text1}
@@ -224,8 +225,8 @@ const Navbar = () => {
             </div>
           </div>
           {/* ul Link */}
-          <div className='p-8 -rotate-12 mt-5 sm:rotate-0 sm:p-2'>
-            <ul className='uppercase flex justify-center flex-wrap gap-3 sm:flex-nowrap'>
+          <div className='p-4 -rotate-12 mt-5 sm:rotate-0 sm:p-0 sm:m-0'>
+            <ul className='uppercase flex justify-center flex-wrap gap-3 sm:flex-nowrap '>
               {arrayLinks.map(({ id, url, name }) => (
                 <Link
                   key={id}
@@ -241,7 +242,7 @@ const Navbar = () => {
                 >
                   <li className=
                     {`
-                      py-4 md:py-0 text-[13px] cursor-pointer font-semibold hover:text-orange-400 
+                      py-4 text-[12px] cursor-pointer font-semibold hover:text-orange-400 
                       ${currentUrl === url+'?' ? 'spanOrange relative before:absolute before:top-1/2 before:left-0 before:w-full before:h-[2px] before:bg-gray-400 before:transform before:-skew-y-12 before:-translate-y-1/2 before:origin-center' : ''}
                     `}
                   >
@@ -253,7 +254,7 @@ const Navbar = () => {
           </div>
           {/* ul ScrollLink Icons */}
           <div className=
-            {`${currentUrl === '/?' && myIcons ? 'block pt-4 pb-6' : 'hidden'}`}
+            {`${currentUrl === '/?' && myIcons ? 'block pb-6 sm:pb-2 md:pb-4' : 'hidden'}`}
           >
             <ul className='flex justify-center gap-x-5'>
               {combinedArray.map((navItem) => (
@@ -280,15 +281,15 @@ const Navbar = () => {
           </div>
           {/* contact */}
           <div className='pt-2 border-t border-gray-400'>
-            <p className='py-4 uppercase tracking-widest spanOrange text-[14px]'>
+            <p className='pt-2 uppercase tracking-widest spanOrange text-[14px] sm:text-[12px]'>
               <strong>
                 {textObject.contact.text}
               </strong>
             </p>
-            <p className='tracking-widest'>
+            <p className='tracking-widest sm:text-[13px]'>
               {textObject.contact.number}
             </p>
-            <p className='py-2 pb-5 break-words tracking-widest'>
+            <p className='sm:py-0 pb-5 break-words tracking-widest sm:text-[13px]'>
               {textObject.contact.mail}
             </p>
           </div>
