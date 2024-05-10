@@ -27,7 +27,7 @@ export const textObject = {
     },
     contact: {
       "text": "Contáctame",
-      "number": "+34 000000000",
+      "number": "+34 111222333",
       "mail": "micorreo@gmail.com"
     },
     navbar: {
@@ -278,11 +278,11 @@ export const textObject = {
       text: {
         "p1": "Hola, soy ",
         "span1": "César",
-        "p2": "Hace tiempo que estudio programación por mi cuenta, y en Febrero de 2022 decidí hacerlo de forma oficial y profesional en:  ",
+        "p2": "Hace tiempo que estudio programación por mi cuenta, y en Febrero de 2022 decidí hacerlo de forma oficial y profesional en:",
         "span2": " Instituto Tecnologico Master-D",
         "p3": "(Valencia), via online.",
         "p4": "Gracias a los conocimientos adquiridos durante el curso y a mi gran pasión por la programación, he podido realizar este trabajo.",
-        "p5": "A continuación, dejo un enlace donde se especifica con detalle todo el proceso que se debe realizar para este trabajo de JavaScript y otro enlace donde se muestra la valoración del trabajo."
+        "p5": "A continuación, dejo un enlace al enunciado del trabajo JS original realizado en el curso de masterD, donde se especifica con detalle todo el proceso que se debe realizar para este trabajo de JavaScript."
       },
       titleBgFoto: {
         "title1": "César Tejada Lorente",
@@ -293,11 +293,6 @@ export const textObject = {
           "id": 0,
           "text": "Enunciado Trabajo JS",
           "url": "Enunciado JS.pdf"
-        },
-        {
-          "id": 1,
-          "text": "Valoración Trabajo JS",
-          "url": "Valoración JS.pdf"
         }
       ]
     },
@@ -405,7 +400,7 @@ export const textObject = {
         "span1": "Informática",
         "p2": "Dirección:",
         "p3": "Playa de Gandía, s/n",
-        "p4": "Teléfono: 000000000",
+        "p4": "Teléfono: 111222333",
         "p5": "Correo Electrónico:",
         "address": "micorreo@gmail.com",
       },

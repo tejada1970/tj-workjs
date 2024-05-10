@@ -1,6 +1,5 @@
 "use client"
 import React from 'react';
-import { MyLinkWeb } from '@/components/MyLink';
 import Link from 'next/link';
 import { Link as ScrollLink } from "react-scroll";
 import { FaTimes, FaBars, FaHouseUser } from 'react-icons/fa';
@@ -107,7 +106,7 @@ const Navbar = () => {
         {/* logo */}
         <div className='flex justify-center items-center gap-2'>
           <div>
-            <h2 className={`text-4xl cursor-default ${cinzel.className}`}>
+            <h2 className={`text-3xl cursor-default ${cinzel.className}`}>
               {textObject.logo.title}
             </h2>
           </div>
@@ -180,8 +179,8 @@ const Navbar = () => {
           className=
           {
             nav
-            ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] min-h-screen p-2 ease-in-all duration-1000 text-center text-lg bg-slate-900 text-slate-200'
-            : 'fixed left-[-200%] w-[75%] sm:w-[60%] md:w-[45%] p-2 h-screen top-0 ease-in-all duration-1000 text-center text-lg'
+            ? 'fixed left-0 top-0 w-[75%] sm:w-[100%] min-h-screen p-2 ease-in-all duration-1000 text-center  bg-slate-900 text-slate-200'
+            : 'fixed left-[-200%] w-[75%] sm:w-[100%] p-2 h-screen top-0 ease-in-all duration-1000 text-center'
           }
         >
           {/* logo, icon menu, phrase */}
@@ -191,7 +190,7 @@ const Navbar = () => {
               {/* logo */}
               <div className='flex justify-center items-center gap-x-2'>
                 <h2 
-                  className={`text-4xl cursor-pointer ${cinzel.className}`}
+                  className={`text-3xl cursor-pointer ${cinzel.className}`}
                 >
                   {textObject.logo.title}
                 </h2>
@@ -225,15 +224,15 @@ const Navbar = () => {
             </div>
           </div>
           {/* ul Link */}
-          <div className='p-8 -rotate-12 mt-5'>
-            <ul className='uppercase flex justify-center flex-wrap gap-3'>
+          <div className='p-8 -rotate-12 mt-5 sm:rotate-0 sm:p-2'>
+            <ul className='uppercase flex justify-center flex-wrap gap-3 sm:flex-nowrap'>
               {arrayLinks.map(({ id, url, name }) => (
                 <Link
                   key={id}
                   href={url}
                   className=
                   {`
-                    ${id === 1 || id === 3 ? 'relative rotate-45' : ''}
+                    ${id === 1 || id === 3 ? 'relative rotate-45 sm:rotate-0' : ''}
                   `}
                   onClick={(e) => {
                     handleNav(e);
@@ -242,7 +241,7 @@ const Navbar = () => {
                 >
                   <li className=
                     {`
-                      py-4 text-[15px] cursor-pointer font-semibold hover:text-orange-400 
+                      py-4 md:py-0 text-[13px] cursor-pointer font-semibold hover:text-orange-400 
                       ${currentUrl === url+'?' ? 'spanOrange relative before:absolute before:top-1/2 before:left-0 before:w-full before:h-[2px] before:bg-gray-400 before:transform before:-skew-y-12 before:-translate-y-1/2 before:origin-center' : ''}
                     `}
                   >
@@ -281,7 +280,7 @@ const Navbar = () => {
           </div>
           {/* contact */}
           <div className='pt-2 border-t border-gray-400'>
-            <p className='py-4 uppercase tracking-widest spanOrange'>
+            <p className='py-4 uppercase tracking-widest spanOrange text-[14px]'>
               <strong>
                 {textObject.contact.text}
               </strong>
@@ -289,9 +288,9 @@ const Navbar = () => {
             <p className='tracking-widest'>
               {textObject.contact.number}
             </p>
-            <address className='py-2 pb-5 break-words tracking-widest'>
+            <p className='py-2 pb-5 break-words tracking-widest'>
               {textObject.contact.mail}
-            </address>
+            </p>
           </div>
         </div>
       </div>

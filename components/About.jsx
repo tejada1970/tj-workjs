@@ -118,18 +118,9 @@ const About = () => {
             <div>
               <MyLinkWeb
                 linkUrl={textObject.about.links[0].url}
-                divClassName='text-center'
+                divClassName='text-center lg:mt-5'
                 linkClassName='border'
                 linkText={textObject.about.links[0].text}
-                leftValue = 'group-hover:left-[82%]'
-              />
-            </div>
-            <div className='py-6'>
-              <MyLinkWeb
-                linkUrl={textObject.about.links[1].url}
-                divClassName='text-center'
-                linkClassName='border'
-                linkText={textObject.about.links[1].text}
                 leftValue = 'group-hover:left-[82%]'
               />
             </div>

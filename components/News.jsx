@@ -48,7 +48,7 @@ const News = () => {
       textTitleSection={textObject.titleSections.news}
     >
       <div className='flex flex-col justify-center items-center mt-10 p-4 bg-white/70'>
-        <h1 className='text-2xl pt-6'>Últimas noticias: The Guardian</h1>
+        <h1 className='text-2xl text-center pt-6'>Últimas noticias: The Guardian</h1>
           <ul>
             {articles.map((article, index) => (
               <div key={article.id}>

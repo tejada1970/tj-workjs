@@ -73,9 +73,9 @@ const Contact = () => {
             <p>
               {textObject.mapWiew.companyData.p5}
             </p>
-            <address>
+            <p>
               {textObject.mapWiew.companyData.address}
-            </address>
+            </p>
           </div>
         </div>
         {/* mapWiew */}
