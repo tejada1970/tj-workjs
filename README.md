@@ -47,8 +47,6 @@ Es importante tener en cuenta que se trata de un proyecto ficticio utilizado con
 ## Descripción
 Este proyecto que representa una tienda ficticia de informática, lo he creado basandome en el trabajo original de javaScript que realizé en 'Curso Superior en programación de páginas Web' matriculado en Febrero de 2022 en: Centro MasterD Valencia, con el propósito de mejorarlo para aplicar y expandir mis conocimientos mediante la exploración de nuevas tecnologías que he estado aprendiendo.
 
-Es importante tener en cuenta que se trata de un proyecto ficticio utilizado con propósitos educativos y de práctica.
-
 Si lo deseas, puedes acceder al trabajo original de javaScript desde mi repositorio de GitHub: trabajo-js-curso-masterd.
 
 ## Características
