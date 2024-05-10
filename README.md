@@ -37,7 +37,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 =======
 # tj-workjs
-Proyecto creado en 2024 por cuenta propia para mejorar el trabajo original de javaScript que realizé durante el curso de MasterD.
+Proyecto creado en 2024 por cuenta propia para mejorar el trabajo original de javaScript que realizé durante el curso de MasterD en 2022.
 
 # Enunciado del Trabajo
 Puedes encontrar el enunciado completo del trabajo original de JavaScript realizado en el curso de MasterD [aquí](public/Enunciado JS.pdf).
