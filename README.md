@@ -39,6 +39,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 # tj-workjs
 Proyecto creado en 2024 por cuenta propia para mejorar el trabajo original de javaScript que realizé en 'Curso Superior en programación de páginas Web' matriculado en Febrero de 2022 en: Centro MasterD Valencia, perteneciente a (Instituto Tecnológico de MasterD / Zaragoza).
 
+# Enunciado del Trabajo
+Puedes encontrar el enunciado completo del trabajo [aquí](public/Enunciado JS.pdf).
+
+Es importante tener en cuenta que se trata de un proyecto ficticio utilizado con propósitos educativos y de práctica.
+
 ## Descripción
 Este proyecto que representa una tienda ficticia de informática, lo he creado basandome en el trabajo original de javaScript que realizé en 'Curso Superior en programación de páginas Web' matriculado en Febrero de 2022 en: Centro MasterD Valencia, con el propósito de mejorarlo para aplicar y expandir mis conocimientos mediante la exploración de nuevas tecnologías que he estado aprendiendo.
 
