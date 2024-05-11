@@ -47,7 +47,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 This project that represents a fictitious computer store, I have created based on the original javaScript work that I did in 'Higher Course in Web Page Programming' enrolled in February 2022 at: Centro MasterD Valencia, belonging to (MasterD Technological Institute / Zaragoza)., with the purpose of improving it to apply and expand my knowledge by exploring new technologies that I have been learning.
 
-If you wish, you can access the original javaScript work located in my repository: https://github.com/tejada1970/trabajo-js-curso-masterd
+**If you wish, you can access the original javaScript work located in my repository: https://github.com/tejada1970/trabajo-js-curso-masterd**
 
 ## Characteristics
 
@@ -55,7 +55,7 @@ If you wish, you can access the original javaScript work located in my repositor
 
 **Server requirements:** For its correct operation, the project must be executed from a server. For example, it is recommended to use XAMPP or another local server to host the application. This is essential so that certain features, such as the news section that uses requests, can be displayed correctly.
 
-## Descarga y Configuración en Entorno Local
+## Download and Configuration in Local Environment
 
 ### Requirements:
 
