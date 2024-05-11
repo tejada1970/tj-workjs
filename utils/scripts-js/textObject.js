@@ -281,8 +281,8 @@ export const textObject = {
         "p2": "Hace tiempo que estudio programación por mi cuenta, y en Febrero de 2022 decidí hacerlo de forma oficial y profesional en:",
         "span2": " Instituto Tecnologico Master-D",
         "p3": "(Valencia), via online.",
-        "p4": "Gracias a los conocimientos adquiridos durante el curso y a mi gran pasión por la programación, he podido realizar este trabajo.",
-        "p5": "A continuación, dejo un enlace al enunciado del trabajo JS original realizado en el curso de masterD, donde se especifica con detalle todo el proceso que se debe realizar para este trabajo de JavaScript."
+        "p4": "Gracias a los conocimientos adquiridos durante el curso y a mi gran pasión por la programación, he podido mejorar este trabajo de JavaScript con nuevas tecnologías.",
+        "p5": "En el siguiente enlace, encontrarás el enunciado del trabajo JS original realizado en el curso de masterD, detallando el proceso completo requerido para este trabajo de JavaScript. Este documento está disponible en mi repositorio de GitHub junto con el trabajo original."
       },
       titleBgFoto: {
         "title1": "César Tejada Lorente",
@@ -292,7 +292,7 @@ export const textObject = {
         {
           "id": 0,
           "text": "Enunciado Trabajo JS",
-          "url": "Enunciado JS.pdf"
+          "url": "https://github.com/tejada1970/trabajo-js-curso-masterd"
         }
       ]
     },
