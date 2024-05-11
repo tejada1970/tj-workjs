@@ -36,51 +36,53 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 =======
-# tj-workjs
-Proyecto creado en 2024 por cuenta propia para mejorar el trabajo original de javaScript que realizé durante el curso de MasterD en 2022.
 
-# Enunciado del Trabajo
-Puedes encontrar el enunciado completo del trabajo original de JavaScript realizado en el curso de MasterD [aquí](public/Enunciado JS.pdf).
+## Statement of work
 
-Es importante tener en cuenta que se trata de un proyecto ficticio utilizado con propósitos educativos y de práctica.
+**You can find the full statement of the original JavaScript work done in the MasterD course, in my repository: https://github.com/tejada1970/trabajo-js-curso-masterd**
 
-## Descripción
-Este proyecto que representa una tienda ficticia de informática, lo he creado basandome en el trabajo original de javaScript que realizé en 'Curso Superior en programación de páginas Web' matriculado en Febrero de 2022 en: Centro MasterD Valencia, perteneciente a (Instituto Tecnológico de MasterD / Zaragoza)., con el propósito de mejorarlo para aplicar y expandir mis conocimientos mediante la exploración de nuevas tecnologías que he estado aprendiendo.
+**'It is important to note that this is a fictional project used for educational and practice purposes'**
 
-Si lo deseas, puedes acceder al trabajo original de javaScript desde mi repositorio de GitHub: trabajo-js-curso-masterd.
+## Description
 
-## Características
-No utiliza base de datos: Es importante destacar que este proyecto no cuenta con una base de datos. Los datos recopilados en el formulario de presupuesto no se almacenan de forma permanente en ningún sitio. Se trata simplemente de una simulación de formulario.
+This project that represents a fictitious computer store, I have created based on the original javaScript work that I did in 'Higher Course in Web Page Programming' enrolled in February 2022 at: Centro MasterD Valencia, belonging to (MasterD Technological Institute / Zaragoza)., with the purpose of improving it to apply and expand my knowledge by exploring new technologies that I have been learning.
 
-Requerimientos del servidor: Para su correcto funcionamiento, el proyecto debe ser ejecutado desde un servidor. Por ejemplo, se recomienda utilizar XAMPP u otro servidor local para alojar la aplicación. Esto es esencial para que ciertas funcionalidades, como la sección de noticias que utiliza peticiones, puedan ser mostradas correctamente.
+If you wish, you can access the original javaScript work located in my repository: https://github.com/tejada1970/trabajo-js-curso-masterd
+
+## Characteristics
+
+**Does not use a database:** It is important to note that this project does not have a database. The data collected in the quote form is not permanently stored anywhere. This is simply a form simulation.
+
+**Server requirements:** For its correct operation, the project must be executed from a server. For example, it is recommended to use XAMPP or another local server to host the application. This is essential so that certain features, such as the news section that uses requests, can be displayed correctly.
 
 ## Descarga y Configuración en Entorno Local
 
-**Requisitos:**
-Tener instalados en tu PC: Node.js y un servidor local de tu preferencia (Se recomienda XAMPP).
+### Requirements:
 
-**Pasos:**
+**Have installed on your PC: Node.js and a local server of your choice (XAMPP is recommended).**
 
-1. **Descarga el Proyecto:**
-Haz clic en el botón "Code" en este repositorio y selecciona "Download ZIP".
+### Steps:
 
-2. **Extracción del Proyecto:**
-Crea una nueva carpeta en tu escritorio.
-Ve a la carpeta de descargas y arrastra el archivo ZIP descargado a la nueva carpeta para extraerlo.
+1. **Download the Project:**
+Click the "Code" button in this repository and select "Download ZIP".
 
-3. **Ubicación en el Servidor Local:**
-Copia la carpeta del proyecto que has extraido y pégala en la carpeta de tu servidor local. Por ejemplo, en XAMPP, la carpeta usualmente es xampp/htdocs.
+2. **Project Extraction:**
+Create a new folder on your desktop.
+Go to the downloads folder and drag the downloaded ZIP file to the new folder to extract it.
 
-4. **Apertura en el Editor:**
-Abre tu editor de código preferido. Recomendamos Visual Studio Code.
-Haz clic derecho sobre la carpeta del proyecto y selecciona "Abrir con Code".
+3. **Location on Local Server:**
+Copy the extracted project folder and paste it into the folder on your local server. For example, in XAMPP, the folder is usually xampp/htdocs.
 
-5. **Instalación de Dependencias:**
-Abre la terminal en Visual Studio Code.
-Ejecuta el siguiente comando para instalar las dependencias necesarias: npm install
+4. **Opening in the Editor:**
+Open your favorite code editor. We recommend Visual Studio Code.
+Right click on the project folder and select "Open with Code".
 
-6. **Ejecución del Servidor de Desarrollo:**
-Una vez completada la instalación, ejecuta el siguiente comando para iniciar el servidor de desarrollo: npm run dev
+5. **Installation of Dependencies:**
+Open the terminal in Visual Studio Code.
+Run the following command to install the necessary dependencies: npm install
 
-7. **Visualización del Proyecto:**
-Abre tu navegador web y navega a http://localhost:3000 o aplasta las teclas Ctrl + http://localhost:3000 desde tu terminal, esto cargará el proyecto en tu navegador y podrás interactuar con él localmente. Cuando se haya mostrado el proyecto, es posible que no se muestren en principio los iconos en la parte superior derecha para la navegación entre secciones de la página de inicio. Para ello, una vez se muestre el proyecto actualiza y refresca el navegador en primer lugar y aparecerán los iconos en su sitio. Este es un pequeño problemilla que tengo que solucionar cuando pueda.
+6. **Running Development Server:**
+Once the installation is complete, run the following command to start the development server: npm run dev
+
+7. **Project View:**
+Open your web browser and navigate to http://localhost:3000 or press Ctrl + http://localhost:3000 from your terminal, this will load the project in your browser and you can interact with it locally. Once the project has been displayed, the icons at the top right for navigation between sections of the home page may not initially be displayed. To do this, once the project is displayed, update and refresh the browser first and the icons will appear in their place. This is a small problem that I have to solve when I can.
