@@ -43,9 +43,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Características
 
-**No utiliza base de datos**: Es importante señalar que este proyecto no cuenta con base de datos.
+**No utiliza base de datos**: Es importante señalar que este proyecto no cuenta con base de datos. Los datos recopilados en el formulario de 'Presupuesto' no se almacenan permanentemente en ningún lugar. Esto es simplemente una simulación de envio de formulario.
 
-**Requisitos del servidor**: Para su correcto funcionamiento el proyecto debe ejecutarse desde un servidor. Por ejemplo, se recomienda utilizar XAMPP u otro servidor local para alojar la aplicación. También se debe tener instalado Node.js en tu PC.
+**Requisitos del servidor**: Para su correcto funcionamiento el proyecto debe ejecutarse desde un servidor. Por ejemplo, se recomienda utilizar XAMPP u otro servidor local para alojar la aplicación. Esto es fundamental para que determinadas funciones, como la sección de noticias que utiliza solicitudes, se puedan mostrar correctamente.
 
 **Es importante tener en cuenta que este es un proyecto ficticio utilizado con fines educativos y prácticos.**
 
