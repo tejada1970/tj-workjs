@@ -53,4 +53,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Este proyecto que representa una tienda de informática ficticia, lo he creado en 2024 a partir del trabajo original de javaScript que realicé durante mi formación en el (Instituto Tecnológico MasterD) con el (Curso Superior en Programación de Páginas Web) en 2022/2023, con el propósito de aplicar y ampliar mis conocimientos explorando nuevas tecnologías que he ido aprendiendo.
 
-Si lo deseas, puedes acceder a mi trabajo original de javaScript ubicado en mi repositorio, a través de este enlace: [trabajo-js-curso-masterd](https://github.com/tejada1970/trabajo-js-curso-masterd).
+Si lo deseas, puedes acceder a mi trabajo original de javaScript ubicado en mi repositorio, a través de este enlace: [trabajo-js-curso-masterd](https://github.com/tejada1970/trabajo-js-curso-masterd). Donde encontrarás la descripción del trabajo.
