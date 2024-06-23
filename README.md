@@ -37,52 +37,20 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 =======
 
-## Statement of work
+## License
 
-**You can find the full statement of the original JavaScript work done in the MasterD course, in my repository: https://github.com/tejada1970/trabajo-js-curso-masterd**
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-**'It is important to note that this is a fictional project used for educational and practice purposes'**
+## Características
 
-## Description
+**No utiliza base de datos**: Es importante señalar que este proyecto no cuenta con base de datos.
 
-This project that represents a fictitious computer store, I have created based on the original javaScript work that I did in 'Higher Course in Web Page Programming' enrolled in February 2022 at: Centro MasterD Valencia, belonging to (MasterD Technological Institute / Zaragoza)., with the purpose of improving it to apply and expand my knowledge by exploring new technologies that I have been learning.
+**Requisitos del servidor**: Para su correcto funcionamiento el proyecto debe ejecutarse desde un servidor. Por ejemplo, se recomienda utilizar XAMPP u otro servidor local para alojar la aplicación. También se debe tener instalado Node.js en tu PC.
 
-**If you wish, you can access the original javaScript work located in my repository: https://github.com/tejada1970/trabajo-js-curso-masterd**
+**Es importante tener en cuenta que este es un proyecto ficticio utilizado con fines educativos y prácticos.**
 
-## Characteristics
+## Descripción
 
-**Does not use a database:** It is important to note that this project does not have a database. The data collected in the quote form is not permanently stored anywhere. This is simply a form simulation.
+Este proyecto que representa una tienda de informática ficticia, lo he creado en 2024 a partir del trabajo original de javaScript que realicé durante mi formación en el (Instituto Tecnológico MasterD) con el (Curso Superior en Programación de Páginas Web) en 2022/2023, con el propósito de aplicar y ampliar mis conocimientos explorando nuevas tecnologías que he ido aprendiendo.
 
-**Server requirements:** For its correct operation, the project must be executed from a server. For example, it is recommended to use XAMPP or another local server to host the application. This is essential so that certain features, such as the news section that uses requests, can be displayed correctly.
-
-## Download and Configuration in Local Environment
-
-### Requirements:
-
-**Have installed on your PC: Node.js and a local server of your choice (XAMPP is recommended).**
-
-### Steps:
-
-1. **Download the Project:**
-Click the "Code" button in this repository and select "Download ZIP".
-
-2. **Project Extraction:**
-Create a new folder on your desktop.
-Go to the downloads folder and drag the downloaded ZIP file to the new folder to extract it.
-
-3. **Location on Local Server:**
-Copy the extracted project folder and paste it into the folder on your local server. For example, in XAMPP, the folder is usually xampp/htdocs.
-
-4. **Opening in the Editor:**
-Open your favorite code editor. We recommend Visual Studio Code.
-Right click on the project folder and select "Open with Code".
-
-5. **Installation of Dependencies:**
-Open the terminal in Visual Studio Code.
-Run the following command to install the necessary dependencies: npm install
-
-6. **Running Development Server:**
-Once the installation is complete, run the following command to start the development server: npm run dev
-
-7. **Project View:**
-Open your web browser and navigate to http://localhost:3000 or press Ctrl + http://localhost:3000 from your terminal, this will load the project in your browser and you can interact with it locally. Once the project has been displayed, the icons at the top right for navigation between sections of the home page may not initially be displayed. To do this, once the project is displayed, update and refresh the browser first and the icons will appear in their place. This is a small problem that I have to solve when I can.
+Si lo deseas, puedes acceder a mi trabajo original de javaScript ubicado en mi repositorio, a través de este enlace: [trabajo-js-curso-masterd](https://github.com/tejada1970/trabajo-js-curso-masterd).
