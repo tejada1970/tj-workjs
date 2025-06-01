@@ -1,4 +1,25 @@
-<<<<<<< HEAD
+# tj-workjs
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Características
+
+**No utiliza base de datos**: Es importante señalar que este proyecto no cuenta con base de datos. Los datos recopilados en el formulario de 'Presupuesto' no se almacenan permanentemente en ningún lugar. Esto es simplemente una simulación de envio de formulario.
+
+**Requisitos del servidor**: Para su correcto funcionamiento el proyecto debe ejecutarse desde un servidor. Por ejemplo, se recomienda utilizar XAMPP u otro servidor local para alojar la aplicación. Esto es fundamental para que determinadas funciones, como la sección de noticias que utiliza solicitudes, se puedan mostrar correctamente.
+
+**Es importante tener en cuenta que este es un proyecto ficticio utilizado con fines educativos y prácticos.**
+
+## Descripción
+
+Este proyecto que representa una tienda de informática ficticia, lo he creado en 2024 a partir del trabajo original de javaScript que realicé durante mi formación en el (Instituto Tecnológico MasterD) con el (Curso Superior en Programación de Páginas Web) en 2022/2023, con el propósito de aplicar y ampliar mis conocimientos explorando nuevas tecnologías que he ido aprendiendo.
+
+Si lo deseas, puedes acceder a mi trabajo original de javaScript ubicado en mi repositorio, a través de este enlace: [trabajo-js-curso-masterd](https://github.com/tejada1970/trabajo-js-curso-masterd). Donde encontrarás la descripción del trabajo.
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -36,21 +57,3 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 =======
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Características
-
-**No utiliza base de datos**: Es importante señalar que este proyecto no cuenta con base de datos. Los datos recopilados en el formulario de 'Presupuesto' no se almacenan permanentemente en ningún lugar. Esto es simplemente una simulación de envio de formulario.
-
-**Requisitos del servidor**: Para su correcto funcionamiento el proyecto debe ejecutarse desde un servidor. Por ejemplo, se recomienda utilizar XAMPP u otro servidor local para alojar la aplicación. Esto es fundamental para que determinadas funciones, como la sección de noticias que utiliza solicitudes, se puedan mostrar correctamente.
-
-**Es importante tener en cuenta que este es un proyecto ficticio utilizado con fines educativos y prácticos.**
-
-## Descripción
-
-Este proyecto que representa una tienda de informática ficticia, lo he creado en 2024 a partir del trabajo original de javaScript que realicé durante mi formación en el (Instituto Tecnológico MasterD) con el (Curso Superior en Programación de Páginas Web) en 2022/2023, con el propósito de aplicar y ampliar mis conocimientos explorando nuevas tecnologías que he ido aprendiendo.
-
-Si lo deseas, puedes acceder a mi trabajo original de javaScript ubicado en mi repositorio, a través de este enlace: [trabajo-js-curso-masterd](https://github.com/tejada1970/trabajo-js-curso-masterd). Donde encontrarás la descripción del trabajo.
