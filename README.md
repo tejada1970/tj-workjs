@@ -1,13 +1,5 @@
 # tj-workjs
 
----
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 ## Características
 
 **No utiliza base de datos**: Es importante señalar que este proyecto no cuenta con base de datos. Los datos recopilados en el formulario de 'Presupuesto' no se almacenan permanentemente en ningún lugar. Esto es simplemente una simulación de envio de formulario.
@@ -25,6 +17,12 @@ Este proyecto representa una tienda de informática ficticia, y lo desarrollé e
 El objetivo principal fue aplicar y ampliar mis conocimientos, explorando nuevas tecnologías que he ido aprendiendo de forma autodidacta.
 
 Si lo deseas, puedes acceder al proyecto original en JavaScript, disponible en mi repositorio a través del siguiente enlace: [trabajo-js-curso-masterd](https://github.com/tejada1970/trabajo-js-curso-masterd). Allí encontrarás una descripción detallada del trabajo inicial.
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
