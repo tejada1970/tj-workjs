@@ -1,8 +1,12 @@
 # tj-workjs
 
+---
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
 
 ## Características
 
@@ -12,11 +16,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Es importante tener en cuenta que este es un proyecto ficticio utilizado con fines educativos y prácticos.**
 
+---
+
 ## Descripción
 
-Este proyecto que representa una tienda de informática ficticia, lo he creado en 2024 a partir del trabajo original de javaScript que realicé durante mi formación en el (Instituto Tecnológico MasterD) con el (Curso Superior en Programación de Páginas Web) en 2022/2023, con el propósito de aplicar y ampliar mis conocimientos explorando nuevas tecnologías que he ido aprendiendo.
+Este proyecto representa una tienda de informática ficticia, y lo desarrollé en 2024 como una evolución de un trabajo original en JavaScript que realicé durante mi formación en el **Instituto Tecnológico MasterD**, en el marco del **Curso Superior en Programación de Páginas Web (2022/2023)**.
 
-Si lo deseas, puedes acceder a mi trabajo original de javaScript ubicado en mi repositorio, a través de este enlace: [trabajo-js-curso-masterd](https://github.com/tejada1970/trabajo-js-curso-masterd). Donde encontrarás la descripción del trabajo.
+El objetivo principal fue aplicar y ampliar mis conocimientos, explorando nuevas tecnologías que he ido aprendiendo de forma autodidacta.
+
+Si lo deseas, puedes acceder al proyecto original en JavaScript, disponible en mi repositorio a través del siguiente enlace: [trabajo-js-curso-masterd](https://github.com/tejada1970/trabajo-js-curso-masterd). Allí encontrarás una descripción detallada del trabajo inicial.
 
 ---
 
